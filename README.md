@@ -1,0 +1,1 @@
+This is coding for designing a scooter renting system that involves creating a user-friendly platform that allows individuals to rent and use scooters for a period of time. The coding includes designing classes, define relationships, and implement fucntionality for scooter system."# Scooter_system" 

@@ -30,6 +30,10 @@ class Scooter
 		@condition 
 	end
 
+	def condition?
+		@condition = "broken"
+	end
+
 end
 
 class Rental_payment
@@ -87,6 +91,7 @@ puts "---"
 scooter1 = Scooter.new("Available", "Good")
 scooter3 = Scooter.new("Unavailable", "Broken")
 
+puts "Scooter3 is #{scooter3.condition?}. This scooter is unavailable."
 puts "You rented scooter1"
 puts "This scooter is in #{scooter1.condition} condition."
 

@@ -18,6 +18,10 @@ class Scooter
 		@condition 
 	end
 
+	def condition?
+		@condition = "broken"
+	end
+
 	# def scooters(availability, condition)
 	# 	scooter = scooter.find { |scooter| scooter.available? == scooter.available?}
 
@@ -32,12 +36,6 @@ class Scooter
 end
 
 
-
-# scooter1 = Scooter.new("available", "good")
-# scooter2 = Scooter.new("available", "good")
-# scooter3 = Scooter.new("unvailable", "broken")
-# puts scooter1.available?
-# puts scooter1.condition
 
 
 

@@ -96,11 +96,17 @@ puts "You rented scooter1"
 puts "This scooter is in #{scooter1.condition} condition."
 
 rental = Rental_payment.new(2,10)
+
 puts "Renting for:"
 puts "#{rental.time_duration} hour"
 puts "Total cost:"
 puts "RM#{rental.rental_cost}"
 
+station1 = DockingStation.new("Bandaran", 50)
+station2 = DockingStation.new("UMS", 70)
+
+puts "Docking station:"
+puts station1.docking_station
 
 
 
